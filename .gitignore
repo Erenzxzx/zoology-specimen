@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# generated data (rebuilt from specimens.csv by scripts/build-data.mjs)
+/data/specimens.json
+
+# misc
+.DS_Store
+*.pem
+
+# env
+.env*.local
+
+# typescript
+*.tsbuildinfo
